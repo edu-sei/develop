@@ -1,22 +1,4 @@
-:root {
-    --bg-primario: #ffffff;
-    --bg-secundario: #347F4C;
-    --bg-terciario: #49b16a;
-    --txt-primario: #ffffff;
-    --txt-secundario: #000000;
-    --txt-terciario: #5a5a5a;
-    --bg-detalles-primario: #00DB9E;
-    --bg-detalles-secundario: rgb(188, 187, 192);
-    --sombra: rgba(0, 0, 0, 0.2);
-    --sombra-chica: 0px 4px 10px rgba(0, 0, 0, 0.5);
-    --sombra-grande: 0px 0px 20px rgba(0, 0, 0, 0.5);
-
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url(./Variables.css);
 
 body{
     
