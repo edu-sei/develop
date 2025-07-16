@@ -1,12 +1,45 @@
 @import url(./Variables.css);
-body{
-    background-color: var(--bg-secundario);
-}
 
+body{
+    
+    background-color: var(--bg-primario);
+}
+main{
+    display: flex;
+    justify-content: center; 
+    margin: 2em;
+    flex-direction: column;
+    /*
+    flex-direction: column;
+    padding: 2em; */
+}
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
+    background-color: var(--bg-secundario);
+    height: 5em;
+   
 }
+.Categoria{
+  color: var(--txt-primario);  
+  font-size: 1.7em;
+   margin: 3em;
+}
+.Frase{
+    border-radius: 3em;
+    width: 30em;
+    height: 4em;
+    background-color: var(--bg-terciario);
+    font-size: large;
+    /* margin: 5em; */
+    text-align: center;
+    padding: 1em;
+    
+}
+.ImagenEscuela img{
+    justify-content: center;
+    border-radius: 3em;
+    padding: 1em;
+} 
