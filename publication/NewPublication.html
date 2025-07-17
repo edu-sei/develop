@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <form class="formulario" action="#" method="post">
+    <h2>Nueva Publicación</h2>
+
+    <label for="tipo">Tipo de Publicación</label>
+    <select id="tipo" name="tipo">
+      <option value="general">Publicación GENERAL</option>
+      <option value="tecnica">Publicación para TÉCNICA 3</option>
+      <option value="secundaria">Publicación para SECUNDARIA 7</option>
+      <option value="centro">Publicación para CENTRO DE ESTUDIANTES</option>
+      <option value="cooperadora">Publicación para COOPERADORA</option>
+      <option value="biblioteca">Publicación para BIBLIOTECA</option>
+    </select>
+
+    <label for="titulo">Título Publicación</label>
+    <input type="text" id="titulo" name="titulo" placeholder="Ingresar título...">
+
+    <label for="cuerpo">Cuerpo de la publicación</label>
+    <textarea id="cuerpo" name="cuerpo" rows="4" placeholder="Descripción de la publicación..."></textarea>
+
+    <div class="checkbox-group">
+      <label>
+        <input type="checkbox" id="adjuntar" name="adjuntar"> Adjuntar imagen
+      </label>
+
+      <div class="imagen-upload">
+        <input type="file" name="imagen" id="imagen">
+        <button type="button" class="boton-adjuntar">Adjuntar</button>
+      </div>
+
+      <label>
+        <input type="checkbox" name="formato1"> Formato tarjeta en columna <span class="info" title="Organiza el contenido en formato de tarjeta vertical.">🛈</span>
+      </label>
+      <label>
+        <input type="checkbox" name="formato2"> Formato tarjeta en columna <span class="info" title="Formato alternativo en columna.">🛈</span>
+      </label>
+    </div>
+
+    <div class="botones">
+      <button type="submit" name="accion" value="previsualizar" class="previsualizar">Previsualizar</button>
+      <button type="submit" name="accion" value="publicar" class="publicar">Publicar</button>
+    </div>
+  </form>
+
+</body>
+</html>
