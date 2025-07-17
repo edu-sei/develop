@@ -26,5 +26,79 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Registro {
+    background-color: rgba(252, 252, 236, 1);
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding: 20px;
+    width: 440px;
+    height: 500px;
+    border-radius: 1em;
+    box-shadow: var(--sombra-chica)   
+}
+
+.Registro h2{
+    font-size: 30px;
+    margin-bottom: 20px; 
+}
+
+.Columna {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 220px;
+}
+
+.campo label {
+  width: 100px; /* Ancho fijo para alinear bien */
+}
+
+.Registro input {
+  padding: 10px;
+  border: 1px solid var(--bg-detalles-primario);
+  border-radius: 5px;
+}
+
+.Registro label {
+  text-align: left;
+}
+
+.BotonRegister {
+    display: flex;
+    width: 120px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 0 auto;
+    padding: 12px 20px;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--txt-primario);
+    background-color: var(--bg-detalles-primario);
+    border: 1px solid var(--txt-secundario);
+    border-radius: 22px;
+    transition: all 0.35s;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.BotonRegister:hover {
+    transform: translateY(-0.25em);
+    box-shadow: 0 0 0.5em 0em #5e5e5e;
+    background-color: var(--bg-detalles-secundario);
+    color: var(--txt-secundario);
+    border-color: var(--txt-secundario);
 }

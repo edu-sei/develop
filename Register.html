@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>TESIS</title>
+</head>
+<body>
+    <header>
+        <article class="Iconoheader"><span>Inicio</span></article>
+        <article class="Iconoheader"><span>Novedades</span></article>
+        <article class="Iconoheader"><span>Comunidad y Proyecto</span></article>
+    </header>
+    <main>
+        <section class="Registro">
+            <form action="" method="post">
+                <h2>Registro</h2>
+            <div class="Columna">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="Columna">
+                <label for="email">Gmail:</label>
+                <input type="email" id="email" name="email" pattern=".+@gmail\.com" required>
+            </div>
+            <div class="Columna">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="Columna">
+                <label for="repassword">Repetir contraseña:</label>
+                <input type="password" id="repassword" name="repassword" required>
+            </div>
+                <button type="submit" class="BotonRegister">Registrarse</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
