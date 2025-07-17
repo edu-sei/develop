@@ -1,5 +1,3 @@
-@import url(/assets/css/Variables.css);
-
 body{
     background-color: var(--bg-secundario);
 }
